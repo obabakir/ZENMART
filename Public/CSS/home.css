@@ -14,8 +14,10 @@
   justify-content: center;
 }
 .header_frame .kantiner {
+  display: flex;
   flex-direction: row;
-  height: 200px;
+  height: auto;
+  /* height: 200px; */
 }
 /* header-left */
 .header_frame .kantiner .header_left {
@@ -123,7 +125,7 @@
 .header_frame .box_left span {
   font-family: "jost";
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
   color: #0053f6;
@@ -132,7 +134,7 @@
   margin: 10px 0px;
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 26px;
   line-height: 38px;
   color: #0053f6;
@@ -140,7 +142,7 @@
 .header_frame .box_left a {
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 15px;
   line-height: 22px;
   color: #041e42;
@@ -171,6 +173,7 @@
   justify-content: center;
 }
 .service_frame .kantiner {
+  display: flex;
   flex-direction: row;
 }
 .service_frame .kantiner .service_box {
@@ -194,7 +197,7 @@
 .service_frame .service_content span {
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #041e42;
@@ -202,7 +205,7 @@
 .service_frame .service_content p {
   font-family: "jost";
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
   color: #626974;
@@ -220,6 +223,7 @@
   justify-content: center;
 }
 .shop_category_frame .kantiner {
+  display: flex;
   flex-direction: column;
 }
 .shop_category_frame .kantiner .category_top {
@@ -233,7 +237,7 @@
 .shop_category_frame .category_top span {
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 28px;
   line-height: 40px;
   color: #041e42;
@@ -241,7 +245,7 @@
 .shop_category_frame .category_top a {
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 15px;
   line-height: 22px;
   color: #041e42;
@@ -278,7 +282,7 @@
   margin-top: 15px;
   font-family: "jost";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   text-align: center;
@@ -287,3 +291,4 @@
 /* shop-category */
 
 /* home_page */
+/* lesson3 */
