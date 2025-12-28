@@ -1,7 +1,7 @@
 /* home_page */
 
 .home_page {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   display: flex;
   flex-direction: column;
 }
@@ -761,6 +761,7 @@
   background-color: #841e42;
 
   background-image: url("../IMG/icons/event_bg.png");
+  background-size: cover;
 }
 .event_frame .kantiner {
   display: flex;
